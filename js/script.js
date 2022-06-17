@@ -90,7 +90,7 @@ function timer() {
     minute = 0;
     hour++;
   }
- if(second == 5){
+ if(minute == 14){
     alert("Bater o ponto");
     reset();
     pause();
