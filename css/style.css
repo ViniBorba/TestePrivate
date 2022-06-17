@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+.flex-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+/*
+.flex-item{
+}
+
+#txt{
+    background: red;
+}
+
+#cro{
+    background: blue;
+}
+
+#espera{
+    background: green;
+}
+*/
+
+header{
+    background: #9932CC;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+}
+
+main{
+    background: #9932CC;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+}
+
+footer{
+    background: #9932CC;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+}
