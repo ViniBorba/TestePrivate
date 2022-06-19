@@ -1,38 +1,29 @@
 ## Referencias para esse projeto:
+[Cronômetro](https://medium.com/walternascimentobarroso-pt/cronômetro-em-js-9b440308090)\
+[JavaScript windows e alert](https://www.w3schools.com/jsref/met_win_alert.asp)\
+[button no HTML e CSS](https://uiverse.io/detail/adamgiebl/giant-donkey-36)\
 
-[Cronômetro](https://medium.com/walternascimentobarroso-pt/cronômetro-em-js-9b440308090)
-[JavaScript windows e alert](https://www.w3schools.com/jsref/met_win_alert.asp)
-[button no HTML e CSS](https://uiverse.io/detail/adamgiebl/giant-donkey-36)
-
+---
 # Links
-
-
+---
 # Estrutura de pastas
-
->   projeto
-
->   src
-
->   package   
-
+>*projeto\
+>src\
+>package   
+---
 # Estrutura do projeto
-
-> interface
-
->   class
-
->       metodo (void ou return)
-
+>interface
+>class
+>metodo (void ou return)
+---
 # Estrutura do codigo
-
-> directory/package
->   file
->       class
->           metodo (void ou return)
->               instrucoes
-
+>directory/package
+>file
+>class
+>metodo (void ou return)
+>instrucoes
+---
 # Estrutura de uma classe
-
     //Classe
     public classe **NomeDaClasse** extends **NomeDaInterface** ou **abstract class**{
         int variavelNum;
@@ -61,7 +52,7 @@
 Interface é como uma forma, um esqueleto, contem somente a forma, mas não tem nem um conteúdo.
 >   Como declarar: **interface MinhaInterface { }**
 >   Como usar: **class MinhaClasse implements MinhaInterface{ }**
-#### Caracteristicas:
+### Caracteristicas:
 - Uma interface não pode ser instanciada, não gera objetos.
 - Uma interface não tem argumentos, apenas a forma dos métodos
 - Na implementação todos os métodos da interface devem ser subscritos (@Override)
