@@ -70,11 +70,11 @@ Parecido com uma interface, é como uma forma pré preenchida.
 > Como usar: **class Classe extends ClasseAbstrata { ... }**
 
 ### Caracteristicas:
-- Pode ter método regular e/ou método abstrato.\
-- No caso de método abstrato, deve ser declarado:\
-    - **public abstract void metodoAbstrato()**.\
-- O método regular pode ser reescrito (@Override)\
-- Uma classe abstrata não pode ser instanciada, não gera objetos.\
+- Pode ter método regular e/ou método abstrato.
+- No caso de método abstrato, deve ser declarado:
+    - **public abstract void metodoAbstrato()**.
+- O método regular pode ser reescrito (@Override)
+- Uma classe abstrata não pode ser instanciada, não gera objetos.
 - Pode ter construtor.
 ---	
 # Diferença entre **interface** e **classe abstrata**
