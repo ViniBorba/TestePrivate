@@ -2,21 +2,39 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #7159c1;
+    background: #191919;
 }
 
 .flex-container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /*
     grid-gap: 1rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-}
-/*
-.flex-item{
+    */
 }
 
+.container{
+}
+
+.flex-item{
+    margin: 3vw;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background: #2D4263;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #ECDBBA;
+}
+
+/*
 #txt{
     background: red;
 }
@@ -31,22 +49,34 @@ html, body {
 */
 
 header{
-    background: #9932CC;
-    width: 98%;
-    height: 98%;
-    text-align: center;
+    font-size: 35px;
 }
 
 main{
-    background: #9932CC;
-    width: 98%;
-    height: 98%;
-    text-align: center;
+    font-size: 24px;
 }
 
 footer{
-    background: #9932CC;
-    width: 98%;
-    height: 98%;
-    text-align: center;
+}
+
+/* From uiverse.io by @adamgiebl */
+button {
+ background: #FBCA1F;
+ font-family: inherit;
+ padding: 0.6em 1.3em;
+ font-weight: 900;
+ font-size: 14px;
+ border: 3px solid black;
+ border-radius: 0.4em;
+ box-shadow: 0.1em 0.1em;
+}
+
+button:hover {
+ transform: translate(-0.05em, -0.05em);
+ box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+ transform: translate(0.05em, 0.05em);
+ box-shadow: 0.05em 0.05em;
 }

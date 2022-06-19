@@ -33,6 +33,7 @@ function segundo(){
     return pegaSegundo.getSeconds();
 }
 */
+//let myWindow = window.open("", "", "width=200,height=100");
 function time(){
     var currentTime=new Date();
     var hour=currentTime.getHours();
@@ -40,6 +41,12 @@ function time(){
     var second=currentTime.getSeconds();
     
     document.getElementById('txt').innerHTML=hour+":"+minute+":"+second;
+    
+    if(hour == 12 && minute == 1 && second == 1){    
+        //myWindow.focus();
+        window.open("", "", "width=400,height=200");
+        alert("Almoço!")
+    }
     
     setTimeout('time()',500);
 }
@@ -91,6 +98,7 @@ function timer() {
     hour++;
   }
  if(minute == 14){
+    window.open("", "", "width=400,height=200");
     alert("Bater o ponto");
     reset();
     pause();

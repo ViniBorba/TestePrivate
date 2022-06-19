@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     
@@ -11,22 +15,24 @@
 </head>
 <body onload="time()">
     <div class="flex-container">
-        <header>
-        <div id="txt" class="flex-item"></div>
+        <header class="flex-item">
+            <p>Hora</p>
+            <div id="txt"></div>
         </header>
-        <main>
-        
+        <main class="flex-item">
+            <p>Marcar Intervalo</p>
             <form name="form_main">
                 <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
-                <br />
-                <button type="button" name="start">Start</button>
-                <button type="button" name="pause">Pause</button>
-                <button type="button" name="reset">Reset</button>
+                <br /><br /><br />
+                <button type="button" name="start"><span class="button_top">Start</span></button>
+                <button type="button" name="pause"><span class="button_top">Pause</span></button>
+                <button type="button" name="reset"><span class="button_top">Reset</span></button>
             </form>
-        
         </main>
-        <footer>
-            ASASASAWS <br />saasas <br />assasas <br />asasas <br /> asasa
+        <footer class="flex-item">
+            <p>Horário entrada: 09:00</p>
+            <p>Intervalo 15 minutos</p>
+            <p>Horário saída: 15:15</p>
         </footer>
     </div>
 </body>
