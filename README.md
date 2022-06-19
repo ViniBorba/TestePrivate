@@ -71,9 +71,9 @@ Parecido com uma interface, é como uma forma pré preenchida.
 
 ### Caracteristicas:
 - Pode ter método regular e/ou método abstrato.\
-No caso de método abstrato, deve ser declarado:\
+- No caso de método abstrato, deve ser declarado:\
     - **public abstract void metodoAbstrato()**.\
-O método regular pode ser reescrito (@Override)\
+- O método regular pode ser reescrito (@Override)\
 - Uma classe abstrata não pode ser instanciada, não gera objetos.\
 - Pode ter construtor.
 ---	
@@ -114,16 +114,16 @@ Pode ser do tipo sem retorno ou com retorno.
 > Como declarar: public static int passandoNumero(int umParametro) { ... return int }\
 > Como usar: umaInstancia.passandoNumero(3)
 ### Caracteristicas:
-- Metodo **void** é um método **sem retorno**, ele pode ou não receber parametros, um ou mais, e então processa as instruções de dentro do método.\
+- Metodo **void** é um método **sem retorno**, ele pode ou não receber parametros, um ou mais, e então processa as instruções de dentro do método.
     - **public void metodoSemRetorno(){ ... }**
-- Um metodo pode **retornar** um parametro, estado ou valor, nesse caso sempre deve retornar o tipo que foi declarado e no método e sempre tem um return\
+- Um metodo pode **retornar** um parametro, estado ou valor, nesse caso sempre deve retornar o tipo que foi declarado e no método e sempre tem um return
     - **public String metodoComRetorno(){... return String}**
-- Métodos **Overloading** são métodos que tem o mesmo nome, isso pq pode ter diferentes tipos de retorno. Como um método retorn só um tipo, podemos criar um método para cada tipo.\
-    - **public int overloadingMetodo (){ ... return int }**\
+- Métodos **Overloading** são métodos que tem o mesmo nome, isso pq pode ter diferentes tipos de retorno. Como um método retorn só um tipo, podemos criar um método para cada tipo.
+    - **public int overloadingMetodo (){ ... return int }**
     - **public float overloadingMetodo (){ ... return float }**
-- No **scopo do Java** somente é possível usar a variavel abaixo da sua declaração e dentro do mesmo bloco.\
-- Um **método recursivo** é uma técnica onde o método chama ele mesmo. Em cascata a resposta vai sendo retornada.\
-    - **public int metodoRecursivo(){ ... return metodoRecursivo }**\
+- No **scopo do Java** somente é possível usar a variavel abaixo da sua declaração e dentro do mesmo bloco.
+- Um **método recursivo** é uma técnica onde o método chama ele mesmo. Em cascata a resposta vai sendo retornada.
+    - **public int metodoRecursivo(){ ... return metodoRecursivo }**
     - **private int metodoRecursivo(){ .. return int }**
 
 ---
