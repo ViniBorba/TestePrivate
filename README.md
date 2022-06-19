@@ -8,25 +8,25 @@
 ---
 # Estrutura de pastas
 ```
--projeto
---src
----package 
+- projeto
+-- src
+--- package 
 ```
 ---
 # Estrutura do projeto
 ```
--interface
---class
----metodo (void ou return)
+- interface
+-- class
+--- metodo (void ou return)
 ```
 ---
 # Estrutura do codigo
 ```
--directory/package
---file
----class
-----metodo (void ou return)
------instrucoes
+- directory/package
+-- file
+--- class
+---- metodo (void ou return)
+----- instrucoes
 ```
 ---
 # Estrutura de uma classe
@@ -59,10 +59,10 @@ Interface é como uma forma, um esqueleto, contem somente a forma, mas não tem 
 >   Como declarar: **interface MinhaInterface { ... }**\
 >   Como usar: **class MinhaClasse implements MinhaInterface{ ... }**
 ### Caracteristicas:
-- Uma interface não pode ser instanciada, não gera objetos.
-- Uma interface não tem argumentos, apenas a forma dos métodos
-- Na implementação todos os métodos da interface devem ser subscritos (@Override)
-- Interface não pode ter um construtor.
+* Uma interface não pode ser instanciada, não gera objetos.
+* Uma interface não tem argumentos, apenas a forma dos métodos
+* Na implementação todos os métodos da interface devem ser subscritos (@Override)
+* Interface não pode ter um construtor.
 ---
 # Classe abstrata
 Parecido com uma interface, é como uma forma pré preenchida. 
@@ -71,7 +71,8 @@ Parecido com uma interface, é como uma forma pré preenchida.
 
 ### Caracteristicas:
 - Pode ter método regular e/ou método abstrato.
-No caso de método abstrato, deve ser declarado: **public abstract void metodoAbstrato()**.
+No caso de método abstrato, deve ser declarado:/
+    - **public abstract void metodoAbstrato()**.
 O método regular pode ser reescrito (@Override)
 - Uma classe abstrata não pode ser instanciada, não gera objetos.
 - Pode ter construtor.
