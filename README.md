@@ -1,52 +1,67 @@
+## Referencias para esse projeto:
+
+[Cronômetro](https://medium.com/walternascimentobarroso-pt/cronômetro-em-js-9b440308090)
+[JavaScript windows e alert](https://www.w3schools.com/jsref/met_win_alert.asp)
+[button no HTML e CSS](https://uiverse.io/detail/adamgiebl/giant-donkey-36)
+
 # Links
 
 
 # Estrutura de pastas
-> projeto
-  > src
-    > package   
+
+>   projeto
+
+>   src
+
+>   package   
 
 # Estrutura do projeto
+
 > interface
-  > class
-    > metodo (void ou return)
+
+>   class
+
+>       metodo (void ou return)
 
 # Estrutura do codigo
+
 > directory/package
-  > file
-    > class
-      > metodo (void ou return)
-        > instrucoes
+>   file
+>       class
+>           metodo (void ou return)
+>               instrucoes
 
 # Estrutura de uma classe
-public classe **NomeDaClasse** extends **NomeDaInterface** ou **abstract class**{
-  int variavelNum;
-  String variavelObj;
-  
-  //Construtor
-  **NomeDaClasse**(int argumentoInt, String argumentoObj, boolean argumentoDaSuperClasse){
-    super(argumentoDaSuperClasse);
-    this.variavelNum = argumentoInt;
-    this.variavelObj = argumentoObj;
-    
-    //Metodos
-    public void metodoSemRetorno(Argumentos){
-      //instrucoes
-    }
-    
-    public int metodoComRetorno(Argumento){
-      //instrucoes
-      return int;
-    }
-  }
-}
 
+    //Classe
+    public classe **NomeDaClasse** extends **NomeDaInterface** ou **abstract class**{
+        int variavelNum;
+        String variavelObj;
+
+        //Construtor
+        **NomeDaClasse**(int argumentoInt, String argumentoObj, boolean argumentoDaSuperClasse){
+            super(argumentoDaSuperClasse);
+            this.variavelNum = argumentoInt;
+            this.variavelObj = argumentoObj;
+        }
+
+        //Metodos
+        public void metodoSemRetorno(Argumentos){
+            //instrucoes
+        }
+
+        public int metodoComRetorno(Argumento){
+            //instrucoes
+        }
+        return int;
+    }
 
 # Interface
+
 Interface é como uma forma, um esqueleto, contem somente a forma, mas não tem nem um conteúdo.
-	> Como declarar: **interface MinhaInterface { }**
-	> Como usar: **class MinhaClasse implements MinhaInterface{ }**
-Caracteristicas:
+>   Como declarar: **interface MinhaInterface { }**
+>   Como usar: **class MinhaClasse implements MinhaInterface{ }**
+#### Caracteristicas:
 - Uma interface não pode ser instanciada, não gera objetos.
 - Uma interface não tem argumentos, apenas a forma dos métodos
 - Na implementação todos os métodos da interface devem ser subscritos (@Override)
@@ -54,9 +69,10 @@ Caracteristicas:
 	
 # Classe abstrata
 Parecido com uma interface, é como uma forma pré preenchida. 
-	> Como declarar: **abstract class ClasseAbstrata { }**
-	> Como usar: **class Classe extends ClasseAbstrata { }**
-Caracteristicas:
+> Como declarar: **abstract class ClasseAbstrata { }**
+> Como usar: **class Classe extends ClasseAbstrata { }**
+
+### Caracteristicas:
 - Pode ter método regular e/ou método abstrato.
 No caso de método abstrato, deve ser declarado: **public abstract void metodoAbstrato()**.
 O método regular pode ser reescrito (@Override)
