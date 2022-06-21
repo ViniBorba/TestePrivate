@@ -324,3 +324,91 @@ Design Patterns criam camadas de abstração ao código. Através destas abstra�
 - Comportamental
 	- Sob o escopo da classe: Faz uso de herança para descreve algoritmos ou fluxos de control
 	- Sob o escopo do objeto: Como um grupo de objetos colabora na execução de uma tarefa; (composição/agregação)
+
+---
+---
+# Definição no nome dos projetos e pacotes
+
+### Padrão para nomes de projetos e pacotes:
+> br.com.nomedaempresa.nomedoprojeto.subpacotes
+
+Dentro do projeto são criados os pacotes\
+Cada pacote contem as classes que serão usadas dentro do próprio pacote\
+> br.com.nomedaempresa.nomedoprojeto.subpacote\
+> br.com.nomedaempresa.nomedoprojeto.subpacote2\
+
+Dentro de um pacote pode ser necessário a construção de um outro pacote com classes de apoio as outras classes do pacote
+> br.com.nomedaempresa.nomedoprojeto.subpacote2.subpacote3\
+> br.com.nomedaempresa.nomedoprojeto.subpacote2.utils
+
+### Padrão para nome dos pcotes
+Alguns pacotes tem nomes padronizados por algumas convenções\
+MVC é uma arquitetura de desenvolvimento de projeto, a idéia está centrada nas 3 camadas que o MVC propõe, cada uma delas fazendo uma representação.\
+- M model: é a camada responsável pela lógica da aplicação. Nela é desenvolvida regras de negócio, persistência com o banco de dados e classes de entidades.\
+model comunica apenas com a camada controller.
+- V view: Camda de visualização, interação e saída de informações. Aqui não contém parte lógica do negócio e a comunicação é feito apenas com a camada controller
+- C controller: Camda que conecta a view e a model, é um intermediário entre as duas camadas.
+
+Link para terminar
+https://www.devmedia.com.br/padrao-mvc-java-magazine/21995
+pacote dto : https://stackoverflow.com/questions/35078383/what-are-the-dao-dto-and-service-layers-in-spring-framework
+
+Link de referência
+# Novo IDE
+http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea
+
+Estudar swagger e and point
+
+Informações passadas pelo Marcos
+Projetos
+	Requisitos
+		Criterios de aceite, como testar esses creiterio
+		
+	Implementar o ddb
+	
+	Testes TDD é uma parte do desenvolvimento
+	Objetivo: verificar se os objetos metodos existentes contemplasm todos os cenários possíveis de execução
+
+Objeto íntegro, objeto que não quebra, tem que executar o esperado
+Testar diferentes cenáros dos objetos e metodos dos objetos
+TDD ajuda nesses testes
+
+Classe e métodos devem ser compartamentos
+
+
+BDD está após o repositório (Analista de testes?)
+Objetivo é validar se a aplicação atende os compartamentos e crite´rios definidos por usuários, como se fossem regras de negócio
+Construir scripts que represente o cenário que foi descrita pelo usuário
+
+
+gherkin language
+
+Given: 
+When: 
+Then: 
+cucumber testing
+
+
+Estudar
+Dúvidas eu tiro de manhã
+
+Curso online:
+https://school.cucumber.io/courses/bdd-with-cucumber-java
+
+Documentação com Referencias, linguagem e organização:
+https://cucumber.io/docs/gherkin/
+
+Linguagem em portugues:
+https://cucumber.io/docs/gherkin/languages/
+
+Instalação no Java
+https://cucumber.io/docs/installation/java/
+
+Informações sobre BDD
+https://www.devmedia.com.br/desenvolvimento-orientado-por-comportamento-bdd/21127
+https://blog.locaweb.com.br/temas/codigo-aberto/diferenca-entre-bdd-tdd/
+https://docbehat.readthedocs.io/pt/v3.1/guides/1.gherkin.html
+https://blog.onedaytesting.com.br/gherkin/
+http://blog.4alltests.com.br/post.php?id=46
+https://www.eduardopires.net.br/2012/06/ddd-tdd-bdd/
+https://marquesfernandes.com/tecnologia/teste-unitario-tdd-e-bdd-qual-a-diferenca/
